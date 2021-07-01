@@ -29,7 +29,7 @@ class CSignup extends CI_Controller
         if ($this->UserModel->insertkonsumen($konsumen)) {
             redirect(site_url("/CLogin"));
         } else {
-            redirect(site_url("/CSigup"));
+            redirect(site_url("/CSignup"));
         }
     }
 

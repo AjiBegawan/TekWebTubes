@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
@@ -27,13 +27,16 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
 
-            <a class="navbar-brand" href="#page-top"><img src="<?php echo base_url('assets\img\rice.svg'); ?>" alt="..." /></a>
+            <a class="navbar-brand" href="#page-top">
+                <h1>Be.U</h1>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars ms-1"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="<?php echo site_url('ctoko/belanja'); ?>">Belanja</a></li>
                     <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="#portfolio">Unggulan</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
@@ -52,7 +55,7 @@
     <section class="page-section" id="services">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Manfaat Chaddas</h2>
+                <h2 class="section-heading text-uppercase">Manfaat Be.U</h2>
                 <h3 class="section-subheading text-muted"> </h3>
             </div>
             <div class="row text-center">
@@ -311,25 +314,6 @@
             </div>
         </div>
     </section>
-    <!-- Clients-->
-    <div class="py-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="<?php echo base_url('assets\img\logos\microsoft.svg'); ?>" alt="..." /></a>
-                </div>
-                <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="<?php echo base_url('assets\img\logos\google.svg'); ?>" alt="..." /></a>
-                </div>
-                <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="<?php echo base_url('assets\img\logos\facebook.svg'); ?>" alt="..." /></a>
-                </div>
-                <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="<?php echo base_url('assets\img\logos\ibm.svg'); ?>" alt="..." /></a>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- Contact-->
     <section class="page-section" id="contact">
         <div class="container">
@@ -337,7 +321,7 @@
                 <h2 class="section-heading text-uppercase">Contact Us</h2>
                 <h3 class="section-subheading text-muted">Keep in touch with Us</h3>
             </div>
- 
+
             <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                 <div class="row align-items-stretch mb-5">
                     <div class="col-md-6">

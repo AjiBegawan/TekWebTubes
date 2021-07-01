@@ -27,6 +27,7 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
+
             <a class="navbar-brand" href="#page-top"><img src="<?php echo base_url('assets\img\navbar-logo.svg'); ?>" alt="..." /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
@@ -44,12 +45,9 @@
         </div>
     </nav>
     <!-- Masthead-->
-    <header class="masthead" style="background-image: url('<?php echo base_url('assets\img\header-bg.jpg'); ?>');">
-        <div class="container">
-            <div class="masthead-subheading">Welcome To Our Studio!</div>
-            <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
-            <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
-        </div>
+    <header>
+        <img src="<?php echo base_url('assets\img\header-bg.jpg'); ?>" alt="">
+
     </header>
     <!-- Services-->
     <section class="page-section" id="services">

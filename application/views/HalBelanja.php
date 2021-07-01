@@ -34,11 +34,11 @@
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                     <li class="nav-item"><a class="nav-link" href="<?php echo site_url('ctoko/belanja'); ?>">Belanja</a></li>
                     <li class="nav-item"><a class="nav-link" href="<?php echo site_url('ctoko/tambah'); ?>">Jual</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Unggulan</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?php echo site_url('ctoko/'); ?>#services">Manfaat</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?php echo site_url('ctoko/'); ?>#portfolio">Kategori</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?php echo site_url('ctoko/'); ?>#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?php echo site_url('ctoko/'); ?>#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?php echo site_url('ctoko/'); ?>#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -71,11 +71,12 @@
                                     <h5 class="card-title"><?php echo $row->Nama_Barang; ?></h5>
                                     <p class="card-text">Rp. <?php echo $row->Stok; ?></p>
                                     <p class="card-text"><?php echo $row->harga; ?> barang</p>
+                                    <p class="card-text"><?php echo $row->Toko; ?></p>
                                     <button type="button" class="btn btn-primary">Tambah Keranjang</button>
                                     <button type="button" class="btn btn-success">Beli Sekarang</button>
                                     <button type="button" class="btn btn-info">Wishlist</button>
-                                    <button type="button" class="btn btn-danger"><?php echo anchor('ctoko/update/'.$row->ID_Barang,'Edit'); ?></button>
-                                    <button type="button" class="btn btn-danger"><?php echo anchor('ctoko/hapus/'.$row->ID_Barang,'Hapus'); ?></button>
+                                    <button type="button" class="btn btn-danger"><?php echo anchor('ctoko/update/' . $row->ID_Barang, 'Edit'); ?></button>
+                                    <button type="button" class="btn btn-danger"><?php echo anchor('ctoko/hapus/' . $row->ID_Barang, 'Hapus'); ?></button>
                                 </div>
                             </div>
                         </div>

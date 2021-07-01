@@ -38,11 +38,11 @@
         <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
           <li class="nav-item"><a class="nav-link" href="<?php echo site_url('ctoko/belanja'); ?>">Belanja</a></li>
           <li class="nav-item"><a class="nav-link" href="<?php echo site_url('ctoko/tambah'); ?>">Jual</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#portfolio">Unggulan</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="<?php echo site_url('ctoko/'); ?>#services">Manfaat</a></li>
+          <li class="nav-item"><a class="nav-link" href="<?php echo site_url('ctoko/'); ?>#portfolio">Kategori</a></li>
+          <li class="nav-item"><a class="nav-link" href="<?php echo site_url('ctoko/'); ?>#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="<?php echo site_url('ctoko/'); ?>#team">Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="<?php echo site_url('ctoko/'); ?>#contact">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -56,7 +56,7 @@
       </div>
     </div>
   </header>
-<br>
+  <br>
   <!-- Form Tambah Produk -->
   <div class="container">
     <h2>Formulir Penambahan Produk</h2>
@@ -91,17 +91,9 @@
       </div>
 
       <div class="form-group">
-        <label class="control-label col-sm-2" for="foto">Foto Barang</label>
+        <label class="control-label col-sm-2" for="toko">Nama Toko</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="foto" placeholder="Stok Barang" name="foto">
-        </div>
-      </div>
-
-      <div class="form-group">
-        <div class="col-sm-offset-2 col-sm-10">
-          <div class="checkbox">
-            <label><input type="checkbox" name="remember"> Remember me</label>
-          </div>
+          <input type="text" class="form-control" id="toto" placeholder="Nama Toko" name="toto">
         </div>
       </div>
       <div class="form-group">
@@ -112,12 +104,6 @@
     </form>
   </div>
 
-  <!-- Footer-->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p>
-    </div>
-  </footer>
   <!-- Bootstrap core JS-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
   <!-- Core theme JS-->

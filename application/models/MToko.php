@@ -13,7 +13,7 @@ class MToko extends CI_Model
             "Nama_Barang" => $this->input->post("nama"),
             "harga" => $this->input->post("harga"),
             "Stok" => $this->input->post("stok"),
-            "Foto" => $this->input->post("foto")
+            "Toko" => $this->input->post("toto")
         );
         return $this->db->insert('Barang', $barang);
     }
@@ -25,7 +25,7 @@ class MToko extends CI_Model
             "Nama_Barang" => $this->input->post("nama"),
             "harga" => $this->input->post("harga"),
             "Stok" => $this->input->post("stok"),
-            "Foto" => $this->input->post("foto")
+            "Toko" => $this->input->post("toko")
         );
         $this->db->where("ID_Barang", $id);
         return $this->db->update('Barang', $barang);

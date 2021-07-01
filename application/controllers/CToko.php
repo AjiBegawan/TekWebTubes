@@ -3,7 +3,7 @@ class CToko extends CI_Controller
 {
     
 
-    function index()
+    function index() 
     {
         $this->load->helper("url");
         $this->load->view("halutama");

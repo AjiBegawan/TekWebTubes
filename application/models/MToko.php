@@ -17,4 +17,9 @@ class MToko extends CI_Model
         );
         return $this->db->insert('Barang', $barang);
     }
+    function delete($id)
+    {
+        $this->db->where("ID_Barang", $id);
+        return $this->db->delete("barang");
+    }
 }

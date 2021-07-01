@@ -51,45 +51,38 @@
             </div>
         </div>
     </header>
-<br>
-<h1>Spesial di Be.U hari ini</h1>
-<br>
-
-
-
-
-<div class="container">
-    <div class="row no-gutters">
-        <div>
-            <?php
-            foreach ($barang->result() as $row) {
-            ?>
-                <div class="card mb-3" style="max-width: auto; max-height: 250px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="<?php echo base_url('assets\img\tani\beras.jpg'); ?>" class="card-img" alt="..." style="max-height: 250px;">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title"><?php echo $row->Nama_Barang; ?></h5>
-                                <p class="card-text">Rp. <?php echo $row->Stok; ?></p>
-                                <p class="card-text"><?php echo $row->harga; ?> barang</p>
-                                <button type="button" class="btn btn-primary">Tambah Keranjang</button>
-                                <button type="button" class="btn btn-success">Beli Sekarang</button>
-                                <button type="button" class="btn btn-info">Wishlist</button>
+    <br>
+    <h1>Spesial di Be.U hari ini</h1>
+    <br>
+    <div class="container">
+        <div class="row no-gutters">
+            <div>
+                <?php
+                foreach ($barang->result() as $row) {
+                ?>
+                    <div class="card mb-3" style="max-width: auto; max-height: 250px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="<?php echo base_url('assets\img\tani\beras.jpg'); ?>" class="card-img" alt="..." style="max-height: 250px;">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title"><?php echo $row->Nama_Barang; ?></h5>
+                                    <p class="card-text">Rp. <?php echo $row->Stok; ?></p>
+                                    <p class="card-text"><?php echo $row->harga; ?> barang</p>
+                                    <button type="button" class="btn btn-primary">Tambah Keranjang</button>
+                                    <button type="button" class="btn btn-success">Beli Sekarang</button>
+                                    <button type="button" class="btn btn-info">Wishlist</button>
+                                    <button type="button" class="btn btn-danger"><?php echo anchor('ctoko/hapus/'.$row->ID_Barang,'Hapus'); ?>  </button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            <?php } ?>
+                <?php } ?>
 
+            </div>
         </div>
-
-</div>
-
     </div>
-
-
 
     <!-- Footer-->
     <footer class="py-5 bg-dark">

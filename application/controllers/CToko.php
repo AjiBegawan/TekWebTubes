@@ -34,7 +34,16 @@ class CToko extends CI_Controller
             redirect(site_url("ctoko"));
         } else {
 
+            redirect(site_url("ctoko/haltambah"));
+        }
+    }
+
+    public function hapus($id)
+    {
+        if($this->MToko->delete($id)){
             redirect(site_url("ctoko/belanja"));
+        }else{
+            redirect(site_url("ctoko"));
         }
     }
 }

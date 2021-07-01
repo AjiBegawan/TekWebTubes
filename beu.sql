@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 01, 2021 at 12:57 PM
--- Server version: 10.4.19-MariaDB
--- PHP Version: 7.4.20
+-- Generation Time: Jul 02, 2021 at 01:11 AM
+-- Server version: 10.4.11-MariaDB
+-- PHP Version: 7.4.5
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -28,19 +28,22 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `barang` (
-  `ID_Barang` int(4) NOT NULL,
+  `ID_Barang` int(4) NOT NULL DEFAULT current_timestamp(),
   `Nama_Barang` varchar(20) NOT NULL,
+  `harga` varchar(11) NOT NULL,
   `Stok` int(5) NOT NULL,
-  `Foto` varchar(20) NOT NULL
+  `Toko` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `barang`
 --
 
-INSERT INTO `barang` (`ID_Barang`, `Nama_Barang`, `Stok`, `Foto`) VALUES
-(1111, 'Tangtop', 30, ''),
-(1112, 'Kolor', 2, '');
+INSERT INTO `barang` (`ID_Barang`, `Nama_Barang`, `harga`, `Stok`, `Toko`) VALUES
+(111, 'Vapcell', '79000', 124000, 'VapStore'),
+(123, 'Casio', '540000', 1, 'Delima'),
+(1000, 'Speaker', '130000', 5, 'Andira'),
+(123456, 'Test 1', '12000111', 13111, '1234');
 
 -- --------------------------------------------------------
 
@@ -67,6 +70,13 @@ INSERT INTO `konsumen` (`ID_Nama`, `Nama`, `Alamat`, `No_Tlpon`, `Password`) VAL
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `barang`
+--
+ALTER TABLE `barang`
+  ADD PRIMARY KEY (`ID_Barang`),
+  ADD UNIQUE KEY `ID_Barang` (`ID_Barang`);
 
 --
 -- Indexes for table `konsumen`

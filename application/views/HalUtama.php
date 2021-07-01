@@ -17,7 +17,6 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="<?php echo base_url('assets\css\styles.css'); ?>" rel="stylesheet" />
 
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -28,7 +27,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
 
-            <a class="navbar-brand" href="#page-top"><img src="<?php echo base_url('assets\img\navbar-logo.svg'); ?>" alt="..." /></a>
+            <a class="navbar-brand" href="#page-top"><img src="<?php echo base_url('assets\img\rice.svg'); ?>" alt="..." /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars ms-1"></i>
@@ -36,7 +35,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                     <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Unggulan</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
@@ -46,15 +45,15 @@
     </nav>
     <!-- Masthead-->
     <header>
-        <img src="<?php echo base_url('assets\img\header-bg.jpg'); ?>" alt="">
+        <img class="img-bg" src="<?php echo base_url('assets\img\tani\landscape2.jpg'); ?>" alt="">
 
     </header>
     <!-- Services-->
     <section class="page-section" id="services">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Services</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h2 class="section-heading text-uppercase">Manfaat Chaddas</h2>
+                <h3 class="section-subheading text-muted"> </h3>
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
@@ -62,24 +61,24 @@
                         <i class="fas fa-circle fa-stack-2x text-primary"></i>
                         <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="my-3">E-Commerce</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="my-3">Jangkau Lebih Banyak Pembeli</h4>
+                    <p class="text-muted">Mampu menjangkau lebih banyak pelanggan di berbagai wilayah</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fas fa-circle fa-stack-2x text-primary"></i>
                         <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="my-3">Responsive Design</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="my-3">Hemat Waktu & Biaya</h4>
+                    <p class="text-muted">Produk dikirimkan pada pelanggan dengan lebih cepat dan lebih murah</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fas fa-circle fa-stack-2x text-primary"></i>
                         <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="my-3">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="my-3">Tingkatkan Kepuasan Pembeli</h4>
+                    <p class="text-muted">Pengiriman yang cepat, kemasan yang rapi, dan stok yang akurat akan meningkatkan kepuasan pelanggan</p>
                 </div>
             </div>
         </div>
@@ -88,7 +87,7 @@
     <section class="page-section bg-light" id="portfolio">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Portfolio</h2>
+                <h2 class="section-heading text-uppercase">Kategori</h2>
                 <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
             </div>
             <div class="row">
@@ -99,11 +98,11 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="<?php echo base_url('assets\img\portfolio\1.jpg'); ?>" alt="..." />
+                            <img class="img-fluid" src="<?php echo base_url('assets\img\tani\beras.jpg'); ?>" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Threads</div>
-                            <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                            <div class="portfolio-caption-heading">Beras</div>
+                            <div class="portfolio-caption-subheading text-muted">Pulen, Putih, Nikmat'</div>
                         </div>
                     </div>
                 </div>
@@ -114,11 +113,11 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="<?php echo base_url('assets\img\portfolio\2.jpg'); ?>" alt="..." />
+                            <img class="img-fluid" src="<?php echo base_url('assets\img\tani\bumbu.jpg'); ?>" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Explore</div>
-                            <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                            <div class="portfolio-caption-heading">Bumbu</div>
+                            <div class="portfolio-caption-subheading text-muted">Ribuan macam bumbu dan penyedap masakan rumah</div>
                         </div>
                     </div>
                 </div>
@@ -129,11 +128,11 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="<?php echo base_url('assets\img\portfolio\3.jpg'); ?>" alt="..." />
+                            <img class="img-fluid" src="<?php echo base_url('assets\img\tani\buah.jpg'); ?>" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Finish</div>
-                            <div class="portfolio-caption-subheading text-muted">Identity</div>
+                            <div class="portfolio-caption-heading">Buah</div>
+                            <div class="portfolio-caption-subheading text-muted">Buah segar yang baru dipetik dari pohon</div>
                         </div>
                     </div>
                 </div>
@@ -144,11 +143,11 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="<?php echo base_url('assets\img\portfolio\4.jpg'); ?>" alt="..." />
+                            <img class="img-fluid" src="<?php echo base_url('assets\img\tani\sayur2.jpg'); ?>" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Lines</div>
-                            <div class="portfolio-caption-subheading text-muted">Branding</div>
+                            <div class="portfolio-caption-heading">Sayur</div>
+                            <div class="portfolio-caption-subheading text-muted">Berbagai jenis sayuran terbaik</div>
                         </div>
                     </div>
                 </div>
@@ -159,11 +158,11 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="<?php echo base_url('assets\img\portfolio\5.jpg'); ?>" alt="..." />
+                            <img class="img-fluid" src="<?php echo base_url('assets\img\tani\organik.jpeg'); ?>" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Southwest</div>
-                            <div class="portfolio-caption-subheading text-muted">Website Design</div>
+                            <div class="portfolio-caption-heading">Organik</div>
+                            <div class="portfolio-caption-subheading text-muted">Pilihan makanan sehat bagi keluarga tercinta</div>
                         </div>
                     </div>
                 </div>
@@ -174,15 +173,16 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="<?php echo base_url('assets\img\portfolio\6.jpg'); ?>" alt="..." />
+                            <img class="img-fluid" src="<?php echo base_url('assets\img\tani\import.jpeg'); ?>" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Window</div>
-                            <div class="portfolio-caption-subheading text-muted">Photography</div>
+                            <div class="portfolio-caption-heading">Import</div>
+                            <div class="portfolio-caption-subheading text-muted">Berbagai masakan dan bahan makanan import dari seluruh penjuru dunia</div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <!-- About-->
@@ -260,34 +260,44 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3 class="section-subheading text-muted">Produksi dimulai pada April 2011 di Albuquerque, New Mexico, setelh itu pindah ke Cleveland, Ohio, pada bulan Agustus dan New York City pada September. Film ini diubah ke 3D di pasca-produksi. The Avengers tayang perdana pada tanggal 11 April 2012, di El Capitan Theatre, Hollywood dan dirilis di Amerika Serikat pada 4 Mei 2012. Film ini mendapat review positif dari sebagian kritikus film dan mendapat banyak rekor box office, termasuk akhir pekan pembukaan terbesar di Amerika Utara untuk keuntungan kotor $ 1 Milyar. The Avengers meraup keuntungan $ 1,5 Milyar di seluruh dunia, dan menjadi film ketiga terlaris sepanjang masa. Film ini dirilis pada Blu-ray Disc dan DVD pada tanggal 25 September 2012. Avengers: Age of Ultron, sebuah sekuel yang ditulis dan disutradarai oleh Whedon telah dirilis pada tanggal 1 Mei 2015.</h3>
             </div>
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="<?php echo base_url('assets\img\team\1.jpg'); ?>" alt="..." />
-                        <h4>Parveen Anand</h4>
-                        <p class="text-muted">Lead Designer</p>
+                        <img class="mx-auto rounded-circle" src="<?php echo base_url('assets\img\team\Chris Hemsworth.jpg'); ?>" alt="..." />
+                        <h4>Indiarto Aji Begawan</h4>
+                        <p class="text-muted">Thor</p>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="<?php echo base_url('assets\img\team\2.jpg'); ?>" alt="..." />
-                        <h4>Diana Petersen</h4>
-                        <p class="text-muted">Lead Marketer</p>
+                        <img class="mx-auto rounded-circle" src="<?php echo base_url('assets\img\team\chris evans.jpg'); ?>" alt="..." />
+                        <h4>Ade Ridwan Nugraha</h4>
+                        <p class="text-muted">Captain America</p>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="<?php echo base_url('assets\img\team\3.jpg'); ?>" alt="..." />
-                        <h4>Larry Parker</h4>
-                        <p class="text-muted">Lead Developer</p>
+                        <img class="mx-auto rounded-circle" src="<?php echo base_url('assets\img\team\chris pratt.jpg'); ?>" alt="..." />
+                        <h4>Diyas Ishlahudin</h4>
+                        <p class="text-muted">Star Lord</p>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="<?php echo base_url('assets\img\team\margot robbie.jpg'); ?>" alt="..." />
+                        <h4>Chania Ayu</h4>
+                        <p class="text-muted">Harley Quin</p>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
@@ -325,15 +335,9 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Contact Us</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3 class="section-subheading text-muted">Keep in touch with Us</h3>
             </div>
-            <!-- * * * * * * * * * * * * * * *-->
-            <!-- * * SB Forms Contact Form * *-->
-            <!-- * * * * * * * * * * * * * * *-->
-            <!-- This form is pre-integrated with SB Forms.-->
-            <!-- To make this form functional, sign up at-->
-            <!-- https://startbootstrap.com/solution/contact-forms-->
-            <!-- to get an API token!-->
+ 
             <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                 <div class="row align-items-stretch mb-5">
                     <div class="col-md-6">
@@ -414,23 +418,13 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="<?php echo base_url('assets\img\portfolio\1.jpg'); ?>" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>
-                                        <strong>Client:</strong>
-                                        Threads
-                                    </li>
-                                    <li>
-                                        <strong>Category:</strong>
-                                        Illustration
-                                    </li>
-                                </ul>
+                                <h2 class="text-uppercase">Beras</h2>
+                                <p class="item-intro text-muted">Pulen, Putih, Nikmat</p>
+                                <img class="img-fluid d-block mx-auto" src="<?php echo base_url('assets\img\tani\beras.jpg'); ?>" alt="..." />
+                                <p>Beras adalah bagian bulir padi (gabah) yang telah dipisah dari sekam. Sekam (Jawa merang) secara anatomi disebut 'palea' (bagian yang ditutupi) dan 'lemma' (bagian yang menutupi).Pada salah satu tahap pemrosesan hasil panen padi, gabah ditumbuk dengan lesung atau digiling sehingga bagian luarnya (kulit gabah) terlepas dari isinya. Bagian isi inilah, yang berwarna putih, kemerahan, ungu, atau bahkan hitam, yang disebut beras.</p>
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                     <i class="fas fa-times me-1"></i>
-                                    Close Project
+                                    Close
                                 </button>
                             </div>
                         </div>
@@ -449,23 +443,14 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="<?php echo base_url('assets\img\portfolio\2.jpg'); ?>g" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>
-                                        <strong>Client:</strong>
-                                        Explore
-                                    </li>
-                                    <li>
-                                        <strong>Category:</strong>
-                                        Graphic Design
-                                    </li>
-                                </ul>
+                                <h2 class="text-uppercase">Bumbu</h2>
+                                <p class="item-intro text-muted">Ribuan macam bumbu dan penyedap masakan rumah</p>
+                                <img class="img-fluid d-block mx-auto" src="<?php echo base_url('assets\img\tani\bumbu.jpg'); ?>" alt="..." />
+                                <p>Sebagai negara tropis, Indonesia dianugerahi tanah subur yang ditumbuhi berbagai macam tanaman yang syarat dengan sejuta manfaat, salah satunya rempah-rempah. Rempah-rempah merupakan bagian tumbuhan yang beraroma dan berasa kuat. Jenis rempah yang dimiliki Indonesia pun cukup beragam.</p>
+
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                     <i class="fas fa-times me-1"></i>
-                                    Close Project
+                                    Close
                                 </button>
                             </div>
                         </div>
@@ -484,23 +469,13 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="<?php echo base_url('assets\img\portfolio\3.jpg'); ?>" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>
-                                        <strong>Client:</strong>
-                                        Finish
-                                    </li>
-                                    <li>
-                                        <strong>Category:</strong>
-                                        Identity
-                                    </li>
-                                </ul>
+                                <h2 class="text-uppercase">Buah</h2>
+                                <p class="item-intro text-muted">Buah segar yang baru dipetik dari pohon</p>
+                                <img class="img-fluid d-block mx-auto" src="<?php echo base_url('assets\img\tani\buah.jpg'); ?>" alt="..." />
+                                <p>Buah buahan dan sayuran banyak memilki kandungan vitamin, mineral, aktioksidan, serta serat yang tinggi dibanding jenis makanan lainnya. Kemudian buah dan sayuran mudah ditemukan dilingkungan kita di Indonesia, bahkan beberapa jenis buah dan sayuran mudah ditanam di alam tropis seperti Indonesia., Banyak makan sayuran dan cukup buah buahan, meruoakan salah satu dari 10 (sepuluh) pedoman Gizi Seimbang.</p>
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                     <i class="fas fa-times me-1"></i>
-                                    Close Project
+                                    Close
                                 </button>
                             </div>
                         </div>
@@ -519,23 +494,14 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="<?php echo base_url('assets\img\portfolio\4.jpg'); ?>" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>
-                                        <strong>Client:</strong>
-                                        Lines
-                                    </li>
-                                    <li>
-                                        <strong>Category:</strong>
-                                        Branding
-                                    </li>
-                                </ul>
+                                <h2 class="text-uppercase">Sayur</h2>
+                                <p class="item-intro text-muted">Berbagai jenis sayuran terbaik</p>
+                                <img class="img-fluid d-block mx-auto" src="<?php echo base_url('assets\img\tani\buah.jpg'); ?>" alt="..." />
+                                <p>Sayur bersama dengan buah adalah makanan super yang baik untuk kesehatan, dan bisa menjauhkan kita dari berbagai penyakit berbahaya, seperti penyakit jantung, kanker, dan diabetes. Ia juga memiliki berbagai kandungan yang sangat sehat, termasuk serat, vitamin dan antioksidan.</p>
+
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                     <i class="fas fa-times me-1"></i>
-                                    Close Project
+                                    Close
                                 </button>
                             </div>
                         </div>
@@ -554,23 +520,13 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="<?php echo base_url('assets\img\portfolio\5.jpg'); ?>" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>
-                                        <strong>Client:</strong>
-                                        Southwest
-                                    </li>
-                                    <li>
-                                        <strong>Category:</strong>
-                                        Website Design
-                                    </li>
-                                </ul>
+                                <h2 class="text-uppercase">Organik</h2>
+                                <p class="item-intro text-muted">Pilihan makanan sehat bagi keluarga tercinta</p>
+                                <img class="img-fluid d-block mx-auto" src="<?php echo base_url('assets\img\tani\organik.jpeg'); ?>" alt="..." />
+                                <p>Makanan organik adalah makanan yang diproduksi secara organik. Pertanian, perkebunan, dan peternakan organik menekankan pada cara-cara alamiah untuk menumbuhkan dan membesarkan produknya. Umumnya, hal ini berarti bahwa dalam proses produksinya, makanan tidak menggunakan benih hasil rekayasa genetika, pestisida kimiawi sintetis, pupuk kimia sintetis, dsb. Pada ternak yang organik, umumnya tidak menggunakan hormon tumbuh dan bahan aditif sintetis pada bahan makanannya.</p>
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                     <i class="fas fa-times me-1"></i>
-                                    Close Project
+                                    Close
                                 </button>
                             </div>
                         </div>
@@ -589,23 +545,13 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
+                                <h2 class="text-uppercase">Import</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="<?php echo base_url('assets\img\portfolio\6.jpg'); ?>" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>
-                                        <strong>Client:</strong>
-                                        Window
-                                    </li>
-                                    <li>
-                                        <strong>Category:</strong>
-                                        Photography
-                                    </li>
-                                </ul>
+                                <img class="img-fluid d-block mx-auto" src="<?php echo base_url('assets\img\tani\import.jpeg'); ?>" alt="..." />
+                                <p>Dengan meluasnya penggunaan internet, banyak bisnis saat ini yang mulai bersaing dalam skala global. Setiap kali bisnis mulai berkembang, pengusaha terus berusaha menjadi lebih kompetitif, baik dengan impor ataupun ekspor barang. Karena ini menjadi dasar bagi bisnis agar bisa berhasil, ada banyak sekali manfaat mengimpor yang harus dipertimbangkan, termasuk makanan import</p>
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                     <i class="fas fa-times me-1"></i>
-                                    Close Project
+                                    Close
                                 </button>
                             </div>
                         </div>
@@ -625,8 +571,6 @@
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>

@@ -10778,6 +10778,14 @@ p {
     }
 }
 
+header .img-bg {
+    width: 2200px;
+    height: 1250px;
+    object-fit: cover;
+    size: cover;
+    align-items: center;
+}
+
 header.masthead {
     padding-top: 10.5rem;
     padding-bottom: 6rem;

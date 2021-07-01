@@ -31,8 +31,8 @@
         <div class="wrapper wrapper--w960">
             <div class="card card-2"> 
                 <div class="card-body">
-                <h1><b><i>Be.U</i></b><h1>
-                    <h2 class="title">Registration</h2>
+                    <h1><b><i>Be.U</i></b><h1>
+                    <h2 class="title">Registration Info</h2>
                     <form action="<?php echo site_url('CSignup/prosesDaftar'); ?>" method="POST">
                         <div class="input-group">
                             <input class="input--style-2" type="text" placeholder="Name" name="Nama">
@@ -55,7 +55,7 @@
                                         <div class="select-dropdown"></div>
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
                         </div>
                         <div class="input-group">
                             <input class="input--style-2" type="text" placeholder="Alamat" name="Alamat">

@@ -89,7 +89,11 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
+<<<<<<< HEAD
 $autoload['helper'] = array('url');
+=======
+$autoload['helper'] = array();
+>>>>>>> parent of 6001c7e (view fix)
 
 /*
 | -------------------------------------------------------------------

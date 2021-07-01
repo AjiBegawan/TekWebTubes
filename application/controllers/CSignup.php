@@ -14,24 +14,5 @@ class CSignup extends CI_Controller
         $this->load->helper("url");
         $this->load->view("VSignup");
     }
-               
-    function prosesDaftar()
-    {
-        $this->load->model("UserModel", "", TRUE);
-        $konsumen = array(
-            "Nama" => $this->input->post("Nama"),
-            "Gender" => $this->input->post("Gender"), 
-            "Alamat" => $this->input->post("Alamat"), 
-            "No_Tlpon" => $this->input->post("No_Tlpon"), 
-            "Password" => $this->input->post("Password")
-        );
-        
-        if ($this->UserModel->insertkonsumen($konsumen)) {
-            redirect(site_url("/CLogin"));
-        } else {
-            redirect(site_url("/CSigup"));
-        }
-    }
-
 
 }

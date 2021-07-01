@@ -27,11 +27,10 @@
 </head>
 
 <body>
-    <div class="page-wrapper bg-blue p-t-100 p-b-100 font-robo">
+    <div class="page-wrapper bg-red p-t-180 p-b-100 font-robo">
         <div class="wrapper wrapper--w960">
             <div class="card card-2"> 
                 <div class="card-body">
-                    <h1><b><i>Be.U</i></b><h1>
                     <h2 class="title">Registration Info</h2>
                     <form action="<?php echo site_url('CSignup/prosesDaftar'); ?>" method="POST">
                         <div class="input-group">
@@ -46,7 +45,7 @@
                             <div class="col-2">
                                 <div class="input-group">
                                     <div class="rs-select2 js-select-simple select--no-search">
-                                        <select name="Gender">
+                                        <select name="gender">
                                             <option disabled="disabled" selected="selected">Gender</option>
                                             <option>Male</option>
                                             <option>Female</option>

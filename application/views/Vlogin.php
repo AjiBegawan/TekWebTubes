@@ -29,13 +29,13 @@
               <form action="#!">
                   <div class="form-group">
                     <label for="id" class="sr-only">ID</label>
-                    <input type="id" name="email" id="ID" class="form-control" placeholder="ID">
+                    <input type="id" name="ID[_Nama" id="email" class="form-control" placeholder="ID">
                   </div>
                   <div class="form-group mb-4">
                     <label for="password" class="sr-only">Password</label>
                     <input type="password" name="Password" id="password" class="form-control" placeholder="***********">
                   </div>
-                  <input name="login" id="login" class="btn btn-block login-btn mb-4" type="button" value="Login">
+                  <input name="login" id="login" class="btn btn-block login-btn mb-4" type="Submite" value="Login">
                 </form>
                 <a href="#!" class="forgot-password-link">Forgot password?</a>
                 <p class="login-card-footer-text">Don't have an account? <a href="<?php echo base_url('/CSignups'); ?>" class="text-reset">Register here</a></p>

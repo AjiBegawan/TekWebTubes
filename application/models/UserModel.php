@@ -1,10 +1,10 @@
 <?php
 class UserModel extends CI_Model
 {
-    // function insertUser($user)
-    // {
-    //     return $this->db->insert("user", $user);
-    // }
+    function insertkonsumen($konsumen)
+    {
+        return $this->db->insert("konsumen", $konsumen);
+    }
 
     function login()
     {

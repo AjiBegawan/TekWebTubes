@@ -10,7 +10,9 @@ class CToko extends CI_Controller
 
     function index() 
     {  
-        $this->load->view("halutama");
+        $this->load->helper("url");
+
+     $this->load->view("halutama");
     }
 
     function belanja()
@@ -18,5 +20,21 @@ class CToko extends CI_Controller
         $this->load->helper("url");
         $data['barang'] = $this->MToko->getToko();
         $this->load->view("halbelanja", $data);
+    }
+
+    function tambah(){
+        $this->load->model('MToko');
+        $data['barang'] = $this->MToko->getToko();
+        $this->load->view("haltambah", $data);
+    }
+
+    function prosesTambah()
+    {
+        if ($this->MToko->insert()) {
+            redirect(site_url("ctoko"));
+        } else {
+
+            redirect(site_url("ctoko/belanja"));
+        }
     }
 }

@@ -38,6 +38,22 @@ class CToko extends CI_Controller
         }
     }
 
+    function update($id){
+        $this->load->model('MToko');
+        $data['barang'] = $this->MToko->getId($id)->row();
+        $this->load->view("halupdate", $data);
+    }
+
+    function prosesUpdate($id)
+    {
+        if ($this->MToko->update($id)) {
+            redirect(site_url("ctoko"));
+        } else {
+
+            redirect(site_url("ctoko/update/$id"));
+        }
+    }
+
     public function hapus($id)
     {
         if($this->MToko->delete($id)){

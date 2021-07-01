@@ -4,7 +4,7 @@
 <head>
   <meta name="description" content="" />
   <meta name="author" content="" />
-  <title>Shop Homepage - Start Bootstrap Template</title>
+  <title>Perbarui Data Produk</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -59,20 +59,20 @@
 <br>
   <!-- Form Tambah Produk -->
   <div class="container">
-    <h2>Formulir Penambahan Produk</h2>
-    <form class="form-horizontal" action="<?php echo base_url() . 'ctoko/prosestambah'; ?>" method="POST">
+    <h2>Formulir Perbarui Data Produk</h2>
+    <form class="form-horizontal" action="<?php echo base_url() . 'ctoko/prosesupdate/'.$barang->ID_Barang; ?>" method="POST">
 
       <div class="form-group">
         <label class="control-label col-sm-2" for="id">ID Barang</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="id" placeholder="ID Barang" name="id">
+          <input type="text" class="form-control" id="id" placeholder="ID Barang" name="id" value="<?php echo $barang->ID_Barang; ?>">
         </div>
       </div>
 
       <div class="form-group">
         <label class="control-label col-sm-2" for="nama">Nama Barang</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="nama" placeholder="Nama Barang" name="nama">
+          <input type="text" class="form-control" id="nama" placeholder="Nama Barang" name="nama" value="<?php echo $barang->Nama_Barang; ?>">
         </div>
       </div>
 

@@ -10786,6 +10786,13 @@ header .img-bg {
     align-items: center;
 }
 
+header .img-bg2 {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    align-items: center;
+}
+
 header.masthead {
     padding-top: 10.5rem;
     padding-bottom: 6rem;

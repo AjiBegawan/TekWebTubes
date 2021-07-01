@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
@@ -27,18 +27,22 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
 
-            <a class="navbar-brand" href="#page-top"><img src="<?php echo base_url('assets\img\rice.svg'); ?>" alt="..." /></a>
+            <a class="navbar-brand" href="#page-top">
+                <h1>Be.U</h1>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars ms-1"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Unggulan</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="<?php echo site_url('ctoko/belanja'); ?>">Belanja</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?php echo site_url('ctoko/tambah'); ?>">Jual</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?php echo site_url('ctoko/'); ?>#services">Manfaat</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?php echo site_url('ctoko/'); ?>#portfolio">Kategori</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?php echo site_url('ctoko/'); ?>#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?php echo site_url('ctoko/'); ?>#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?php echo site_url('ctoko/'); ?>#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -52,7 +56,7 @@
     <section class="page-section" id="services">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Manfaat Chaddas</h2>
+                <h2 class="section-heading text-uppercase">Manfaat Be.U</h2>
                 <h3 class="section-subheading text-muted"> </h3>
             </div>
             <div class="row text-center">
@@ -190,18 +194,18 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">About</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3 class="section-subheading text-muted">Timeline Pengerjaan</h3>
             </div>
             <ul class="timeline">
                 <li>
                     <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('assets\img\about\1.jpg'); ?>" alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h4>2009-2011</h4>
-                            <h4 class="subheading">Our Humble Beginnings</h4>
+                            <h4>1500</h4>
+                            <h4 class="subheading">Ide Baru Muncul</h4>
                         </div>
                         <div class="timeline-body">
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                            <p class="text-muted">Awal dari pembuatan projek baru</p>
                         </div>
                     </div>
                 </li>
@@ -209,11 +213,11 @@
                     <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('assets\img\about\2.jpg'); ?>" alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h4>March 2011</h4>
-                            <h4 class="subheading">An Agency is Born</h4>
+                            <h4>1800</h4>
+                            <h4 class="subheading">Konsep dasar telah final</h4>
                         </div>
                         <div class="timeline-body">
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                            <p class="text-muted">Halaman utama dan fungsi login telah selesai dibuat</p>
                         </div>
                     </div>
                 </li>
@@ -221,11 +225,11 @@
                     <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('assets\img\about\3.jpg'); ?>" alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h4>December 2015</h4>
-                            <h4 class="subheading">Transition to Full Service</h4>
+                            <h4>2100</h4>
+                            <h4 class="subheading">Mulai ke tahap berikutnya</h4>
                         </div>
                         <div class="timeline-body">
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                            <p class="text-muted">Fungsi pendukung dan CRUD mulai dikerjakan</p>
                         </div>
                     </div>
                 </li>
@@ -233,22 +237,22 @@
                     <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('assets\img\about\4.jpg'); ?>" alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h4>July 2020</h4>
-                            <h4 class="subheading">Phase Two Expansion</h4>
+                            <h4>2400</h4>
+                            <h4 class="subheading">Melanjutkan pekerjaan sebelumnya</h4>
                         </div>
                         <div class="timeline-body">
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                            <p class="text-muted">Penyempurnaan seluruh fungsi dan terdapat beberapa gangguan teknis</p>
                         </div>
                     </div>
                 </li>
                 <li class="timeline-inverted">
                     <div class="timeline-image">
                         <h4>
-                            Be Part
+                            Project
                             <br />
-                            Of Our
+                            Telah
                             <br />
-                            Story!
+                            Selesai
                         </h4>
                     </div>
                 </li>
@@ -337,7 +341,7 @@
                 <h2 class="section-heading text-uppercase">Contact Us</h2>
                 <h3 class="section-subheading text-muted">Keep in touch with Us</h3>
             </div>
- 
+
             <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                 <div class="row align-items-stretch mb-5">
                     <div class="col-md-6">
@@ -564,10 +568,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="<?php echo base_url('assets\js\scripts.js'); ?>"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

@@ -2,11 +2,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Shop Homepage - Start Bootstrap Template</title>
+    <title>Perbarui Data Produk</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Bootstrap icons-->
@@ -53,38 +57,59 @@
         </div>
     </header>
     <br>
-    <h1>Spesial di Be.U hari ini</h1>
-    <br>
+    <!-- Form Tambah Produk -->
     <div class="container">
-        <div class="row no-gutters">
-            <div>
-                <?php
-                foreach ($barang->result() as $row) {
-                ?>
-                    <div class="card mb-3" style="max-width: auto; max-height: 250px;">
-                        <div class="row no-gutters">
-                            <div class="col-md-4">
-                                <img src="<?php echo base_url('assets\img\tani\beras.jpg'); ?>" class="card-img" alt="..." style="max-height: 250px;">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title"><?php echo $row->Nama_Barang; ?></h5>
-                                    <p class="card-text">Rp. <?php echo $row->Stok; ?></p>
-                                    <p class="card-text"><?php echo $row->harga; ?> barang</p>
-                                    <p class="card-text"><?php echo $row->Toko; ?></p>
-                                    <button type="button" class="btn btn-primary">Tambah Keranjang</button>
-                                    <button type="button" class="btn btn-success">Beli Sekarang</button>
-                                    <button type="button" class="btn btn-info">Wishlist</button>
-                                    <button type="button" class="btn btn-danger"><?php echo anchor('ctoko/update/' . $row->ID_Barang, 'Edit'); ?></button>
-                                    <button type="button" class="btn btn-danger"><?php echo anchor('ctoko/hapus/' . $row->ID_Barang, 'Hapus'); ?></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <?php } ?>
+        <h2>Formulir Perbarui Data Produk</h2>
+        <form class="form-horizontal" action="<?php echo base_url() . 'ctoko/prosesupdate/' . $barang->ID_Barang; ?>" method="POST">
 
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="id">ID Barang</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="id" placeholder="ID Barang" name="id" value="<?php echo $barang->ID_Barang; ?>">
+                </div>
             </div>
-        </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="nama">Nama Barang</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="nama" placeholder="Nama Barang" name="nama" value="<?php echo $barang->Nama_Barang; ?>">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="harga">Harga Barang</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="harga" placeholder="Harga Barang" name="harga" value="<?php echo $barang->harga; ?>">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="stok">Stok Barang</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="stok" placeholder="Stok Barang" name="stok" value="<?php echo $barang->Stok; ?>">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="foto">Nama Toko</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="toko" placeholder="Nama Toko" name="toko" value="<?php echo $barang->Toko; ?>">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                        <label><input type="checkbox" name="remember"> Remember me</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </div>
+            </div>
+        </form>
     </div>
 
     <!-- Footer-->

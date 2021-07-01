@@ -17,7 +17,7 @@
       <div class="card login-card">
         <div class="row no-gutters">
           <div class="col-md-5">
-            <img src="http://[::1]/TekWebTubes/TekWebTubes/assets\img\login2.jpg" alt="login" class="login-card-img">
+            <img src="http://[::1]/TekWebTubes/TekWebTubes/assets\img\login.jpg" alt="login" class="login-card-img">
           </div>
           <div class="col-md-7">
             <div class="card-body">
@@ -26,20 +26,16 @@
                 --><h1><b><i>Be.U</i></b><h1>
               </div>
               <p class="login-card-description">Sign into your account</p>
-              <form action="<?php echo site_url('CLogin/prosesLogin'); ?>" method="post">
+              <form action="#!">
                   <div class="form-group">
-                    <label for="ID_Nama" class="sr-only">ID</label>
-                    <input type="text" name="ID_Nama" id="email" class="form-control" placeholder="ID" required>
+                    <label for="id" class="sr-only">ID</label>
+                    <input type="id" name="email" id="ID" class="form-control" placeholder="ID">
                   </div>
                   <div class="form-group mb-4">
-                    <label for="Password" class="sr-only">Password</label>
-                    <input type="password" name="Password" id="password" class="form-control" placeholder="***********" required>
+                    <label for="password" class="sr-only">Password</label>
+                    <input type="password" name="password" id="password" class="form-control" placeholder="***********">
                   </div>
-                <br>
-                    <?php echo $this->session->userdata("error"); ?>
-                <br>
-
-                  <input name="login" id="login" class="btn btn-block login-btn mb-4" type="submit" value="Login" >
+                  <input name="login" id="login" class="btn btn-block login-btn mb-4" type="button" value="Login">
                 </form>
                 <a href="#!" class="forgot-password-link">Forgot password?</a>
                 <p class="login-card-footer-text">Don't have an account? <a href="#!" class="text-reset">Register here</a></p>

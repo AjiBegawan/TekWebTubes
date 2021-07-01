@@ -37,6 +37,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                     <li class="nav-item"><a class="nav-link" href="<?php echo site_url('ctoko/belanja'); ?>">Belanja</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?php echo site_url('ctoko/tambah'); ?>">Jual</a></li>
                     <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="#portfolio">Unggulan</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
@@ -314,6 +315,25 @@
             </div>
         </div>
     </section>
+    <!-- Clients-->
+    <div class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-3 col-sm-6 my-3">
+                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="<?php echo base_url('assets\img\logos\microsoft.svg'); ?>" alt="..." /></a>
+                </div>
+                <div class="col-md-3 col-sm-6 my-3">
+                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="<?php echo base_url('assets\img\logos\google.svg'); ?>" alt="..." /></a>
+                </div>
+                <div class="col-md-3 col-sm-6 my-3">
+                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="<?php echo base_url('assets\img\logos\facebook.svg'); ?>" alt="..." /></a>
+                </div>
+                <div class="col-md-3 col-sm-6 my-3">
+                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="<?php echo base_url('assets\img\logos\ibm.svg'); ?>" alt="..." /></a>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Contact-->
     <section class="page-section" id="contact">
         <div class="container">
@@ -548,10 +568,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="<?php echo base_url('assets\js\scripts.js'); ?>"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

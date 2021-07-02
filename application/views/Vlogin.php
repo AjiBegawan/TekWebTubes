@@ -17,7 +17,7 @@
       <div class="card login-card">
         <div class="row no-gutters">
           <div class="col-md-5">
-            <img src="http://[::1]/TekWebTubes/TekWebTubes/assets\img\login2.jpg" alt="login" class="login-card-img">
+            <img src="<?php echo base_url('assets\img\login2.jpg'); ?>" alt="login" class="login-card-img">
           </div>
           <div class="col-md-7">
             <div class="card-body">

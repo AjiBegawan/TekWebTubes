@@ -34,6 +34,9 @@
                     <h1><b><i>Be.U</i></b><h1>
                     <h2 class="title">Registration Info</h2>
                     <form action="<?php echo site_url('CSignup/prosesDaftar'); ?>" method="POST">
+                    <div class="input-group">
+                            <input class="input--style-2" type="text" placeholder="ID" name="ID_Nama">
+                        </div>
                         <div class="input-group">
                             <input class="input--style-2" type="text" placeholder="Name" name="Nama">
                         </div>

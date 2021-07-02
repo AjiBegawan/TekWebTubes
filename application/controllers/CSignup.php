@@ -19,6 +19,7 @@ class CSignup extends CI_Controller
     {
         $this->load->model("UserModel", "", TRUE);
         $konsumen = array(
+            "ID_Nama" => $this->input->post("ID_Nama"),
             "Nama" => $this->input->post("Nama"),
             "Gender" => $this->input->post("Gender"), 
             "Alamat" => $this->input->post("Alamat"), 

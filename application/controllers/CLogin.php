@@ -1,12 +1,12 @@
 <?php
 class CLogin extends CI_Controller
 { 
-    public function __construct(){
-        parent::__construct();
-        // $this->load->database();
-        $this->load->model("UserModel");
-        $this->load->library('session');
-    }
+    // public function __construct(){
+    //     parent::__construct();
+    //     // $this->load->database();
+    //     $this->load->model("UserModel");
+    //     $this->load->library('session');
+    // }
     
     function index() 
     {

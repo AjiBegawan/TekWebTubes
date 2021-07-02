@@ -26,14 +26,14 @@
                 --><h1><b><i>Be.U</i></b><h1>
               </div>
               <p class="login-card-description">Sign into your account</p>
-              <form action="<?php echo site_url('CLogin/prosesLogin'); ?>" method="post">
+              <form action="<?php echo site_url('CLogin/prosesLogin'); ?>">
                   <div class="form-group">
                     <label for="ID_Nama" class="sr-only">ID</label>
                     <input type="id" name="ID_Nama" id="email" class="form-control" placeholder="ID">
                   </div>
                   <div class="form-group mb-4">
-                    <label for="Password" class="sr-only">Password</label>
-                    <input type="password" name="Password" id="password" class="form-control" placeholder="***********" required>
+                    <label for="password" class="sr-only">Password</label>
+                    <input type="password" name="Password" id="password" class="form-control" placeholder="***********">
                   </div>
                   <br>
                     <?php echo $this->session->userdata("error"); ?>
